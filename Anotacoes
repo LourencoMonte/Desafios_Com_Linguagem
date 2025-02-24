@@ -1,0 +1,22 @@
+Use gsube para substituir valores
+    ex: .gsub(',', '.') Substitui , por .
+
+Criar branch: git checkout -b nome-da-branch
+Excluir branch: git branch -d nome-da-branch
+tipos de branch:
+    feature
+        Objetivo: Desenvolver novas funcionalidades ou melhorias.
+    bugfix
+        Objetivo: Corrigir bugs identificados durante o desenvolvimento, antes do lançamento.
+    hotfix
+        Objetivo: Corrigir bugs críticos em produção.
+    release
+        Objetivo: Preparar uma nova versão para lançamento. Aqui são feitos ajustes finais, como correção de bugs menores e atualização de documentação.
+    chore
+        Objetivo: Tarefas de manutenção que não afetam a funcionalidade do código.    
+    refactor
+        Objetivo: Melhorar o código sem alterar funcionalidades, como otimizações de performance ou organização.
+    test
+        Objetivo: Criar ou ajustar testes automatizados.
+    docs
+        Objetivo: Alterações na documentação.
